@@ -1,0 +1,50 @@
+├── app/
+│   ├── api/
+│   │   ├── auth/
+│   │   │   └── gmail/
+│   │   │       ├── route.js
+│   │   │       └── callback/
+│   │   │           └── route.js
+│   │   ├── admin/
+│   │   │   ├── stats/route.js
+│   │   │   ├── users/route.js
+│   │   │   └── posts/route.js
+│   │   └── seo/
+│   │       └── analyze/route.js
+│   ├── admin/
+│   │   ├── page.js
+│   │   ├── layout.js
+│   │   ├── posts/
+│   │   │   ├── page.js
+│   │   │   └── [id]/edit/page.js
+│   │   └── users/
+│   │       └── page.js
+│   ├── login/
+│   │   └── page.js
+│   └── layout.js
+├── components/
+│   ├── admin/
+│   │   ├── Sidebar.js
+│   │   ├── Header.js
+│   │   ├── StatsCards.js
+│   │   └── SEOTool.js
+│   ├── auth/
+│   │   └── GmailLoginButton.js
+│   └── blog/
+│       ├── BlogEditor.js
+│       └── SEOChecker.js
+├── lib/
+│   ├── db/
+│   │   └── mongodb.js
+│   ├── auth/
+│   │   └── gmail.js
+│   └── seo/
+│       └── analyzer.js
+├── models/
+│   ├── User.js
+│   ├── BlogPost.js
+│   └── SEOToolUsage.js
+├── middleware.js
+├── .env.local
+├── package.json
+└── README.md
